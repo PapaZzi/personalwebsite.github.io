@@ -1,0 +1,272 @@
+body{
+    background-color: #f7f5e9;
+	margin: 0;
+    padding: 0;
+	width: 100%;
+
+}
+
+.leftnext{
+	position: fixed;
+	top:50%;
+	left:10px;
+	font-style: italic;
+	font-family: "Times New Roman";
+	color: #313b41;
+	font-weight: bold;
+	background-color: #f8f5ee;
+}
+
+.leftnext:hover{
+	color: #f8f5ee;
+	background-color: #313b41;
+}
+
+.rightnext{
+	position: fixed;
+	top:50%;
+	right:10px;
+	font-style: italic;
+	font-family: "Times New Roman";
+	color: #313b41;
+	font-weight: bold;
+	background-color: #f8f5ee;
+}
+
+.rightnext:hover{
+	color: #f8f5ee;
+	background-color: #313b41;
+}
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #b9753a; /* Set a background color */
+  color: #f8f5ee; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+	background-color: #313b41; /* Add a  background on hover */
+	color: #b9753a;
+}
+
+.header{
+	    padding:30px;
+		text-align: center;
+		background-color: #f7f5e9;
+}
+
+.title{
+	color: #57777e;
+	text-align: center;
+	font-size:40px;
+	margin-top:-10px;
+}
+
+
+.nav{
+	margin-top:0px;
+	text-align:center;
+	width:100%;
+	height:40px;
+}
+.nav ul{
+	text-align:center;
+	display:inline-block;
+	list-style: none;
+	padding:0px;
+	margin: 0px;
+}
+.nav ul li{
+	float:left;
+	margin-top:6.5px;
+}
+.nav ul li a {
+	width:180px;
+	color:#4f5655;
+	display:block;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	padding:5px;
+	border-radius:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.nav a:hover{
+	background:#f7f5e9;
+}
+
+.nav ul li a:hover {
+	color: #e7b33f;
+}
+
+.nav ul li ul{
+	background:#f7f5e9;
+}
+.nav ul li ul li{
+	float:none;
+}
+.nav ul li ul{
+	display:none;
+}
+.nav ul li:hover ul{
+	display:block;
+}
+
+#content{
+	margin-top:100px;
+}
+
+#content ul{
+	list-style:none;
+}
+
+#main img {
+    width: 230px;
+    height: 180px;
+    border: 3px groove white;
+    box-shadow: 5px 5px 10px grey;
+}
+ 
+#main li:hover {
+    position: relative;
+    z-index: 200;
+	transform: rotate(0deg) scale(1.5);
+}
+.sh{
+	margin:20px;
+}
+.it{
+	margin:30px;
+}
+.par{
+	margin:20px;
+}
+.sh, .it,  .par {
+    clear: both;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.sh li, .it li,  .par li {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.sh li:nth-child(1) {
+    float: left;
+    transform-origin: left top;
+    transform: rotate(10deg);
+    transition: all 1s ease;
+}
+
+.sh li:nth-child(2) {
+     float: left;
+     transform-origin: left top;
+     transform: rotate(-10deg);
+     transition: all 1s ease;
+}
+
+.sh li:nth-child(3) {
+     float: left;
+     transform-origin: left top;
+     transform: rotate(10deg);
+     transition: all 1s ease;
+     padding-left: 100px;
+ }
+
+.it li:nth-child(1) {
+     float: left;
+     transform-origin: left top;
+     transform: rotate(-5deg);
+     transition: all 1s ease;
+}
+
+ .it li:nth-child(2) {
+     float: left;
+     transform-origin: right top;
+     transform: rotate(20deg);
+     padding-left: 150px;
+     transition: all 1s ease;
+}
+
+.par li:nth-child(1) {
+     float: left;
+     transform-origin: left bottom;
+     transform: rotate(20deg);
+     transition: all 1s ease;
+}
+
+.par li:nth-child(2) {
+     float: left;
+     transform-origin: left top;
+     transform: rotate(5deg);
+     transition: all 1s ease;
+     padding-left: 100px;
+}
+
+.par li:nth-child(3) {
+    float: left;
+    transform-origin: left top;
+    transform: rotate(-20deg);
+    transition: all 1s ease;
+}
+
+.par li:nth-child(4) {
+    float: left;
+    transform-origin: right top;
+    transform: rotate(20deg);
+    transition: all 1s ease;
+    padding-left: 100px;
+}
+
+#main h1 {
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.switch{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	margin-top: 0px;
+	background:#504a32;
+	padding:30px;
+	opacity:0.7;
+}
+.text2{
+	text-align:center;
+}
+.text2 p {
+    color: white;
+    font-size:15px;
+    margin: 0;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>My 3D Skill</title>
+<link href="../css/3d.css" rel="stylesheet" type="text/css"/>
+<link href="../css/slide.css" rel="stylesheet" type="text/css"/>
+</style>
+</head>
+
+<body>
+<a href="an.html" class="leftnext">←Next Page</a>
+<a href="web.html" class="rightnext">Next Page→</a>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="header">
+	    <h1 class="title">Wan YiXuan</h1>
+		<p style="font-size:15px; color:#9aa2a1">An <b>Personal Homepage</b> website</p>
+	</div>
+	
+	    <div class="nav">
+        <ul>
+            <li><a href="../Homepage.html">Home</a></li>
+            <li><a href="#">My Skill▼</a>
+                <ul>
+                    <li><a href="3d.html">3D Model Creating</a></li>
+                    <li><a href="web.html">Website Design</a></li>
+					<li><a href="an.html">Adobe Animate</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">My Hobby▼</a>
+			    <ul>
+                    <li><a href="paint.html">Painting</a></li>
+                    <li><a href="piano.html">Piano</a></li>
+
+                </ul>
+            </li>
+            <li><a href="photo.html">PhotoGraphy</a>
+            </li>
+            <li><a href="contact.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+	
+	<P style="margin-left:17%;margin-top:9%;font-size:27px;color: #45676e;font-family: Open Sans;"><b>My 3D Project.</b></P>
+	<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="../img/3d1.jpg" style="width:100%">
+    <div class="textblack">3D Character</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="../img/3d2.jpg" style="width:100%">
+    <div class="textblack">3D Character</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="../img/3d3.jpg" style="width:100%">
+    <div class="textblack">3D Scene</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="../img/3d4.jpg" style="width:100%">
+    <div class="textblack">Eevee</div>
+  </div>
+  
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="../img/3d5.jpg" style="width:100%">
+    <div class="text">Hollow Knight</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+	
+	<div class="intro1">
+	    <P style="margin-left:0%;margin-bottom:2%;font-size:30px;color: #45676e;font-family: Open Sans;"><b>Skill Introduce.</b></P>
+	    <div class="mvimg">
+		    <img id="myImg" src="../img/3dint1.png" alt="Marvelous Design" >
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+		</div>
+
+		<div class="text1">
+            <p style="font-size:30px;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%;"><b>Marvelous Design.</b></p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">Marvelous Design is helpful in making 3D character models. I can use this software to design many interesting and complex clothes and dress the characters.</p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">Marvelous Design can be used to create realistic clothes through a variety of built-in cloth materials. I can easily refine and modify on other 3D software to achieve better results. It enables me to save time and increase efficiency.</p>
+		</div>
+		
+		<div class="text2">
+		    <p style="font-size:30px;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%;"><b>Zbrush.</b></p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">ZBrush is a kind of 3D engraving software. I can use ZBrush to carve a lot of details and shapes on 3D models. In addition, I can use ZBrush to color the model and then use RizomUV to make a material map.</p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">ZBrush can also transform high model into low model with reasonable wiring. If I need to make subsequent animation or insert it into other 3D software. ZBrush is important to me.</p>
+		</div>
+		<div class="zbimg">
+		    <img id="myImg2" src="../img/3dint2.png" alt="Zbrush" >
+                <div id="myModal2" class="modal2">
+                    <span class="close">&times;</span>
+                    <img class="modal-content2" id="img02">
+                    <div id="caption2"></div>
+                </div>
+		</div>
+		
+		<div class="rzimg">
+		    <img id="myImg3" src="../img/3dint3.png" alt="RizomUV" >
+                <div id="myModal3" class="modal3">
+                    <span class="close">&times;</span>
+                    <img class="modal-content3" id="img03">
+                    <div id="caption3"></div>
+		        </div>
+		</div>
+		<div class="text3">
+		    <p style="font-size:30px;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%;"><b>RizomUV.</b></p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">Due to the model made by using ZBrush doesn't have UV. If I want to make a material map for the model, I can use RizomUV to create the UV for the model.</p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">Rizomuv has powerful functions. I can choose to automatically expand into one or several pieces or dozens of pieces UV. At the same time, even if it is a general laptop, RizomUV can also handle about 100000 face models. This allows me to establish my 3D model faster.</p>
+		</div>
+		
+		<div class="text4">
+		    <p style="font-size:30px;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%;"><b>3DMax.</b></p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">I can skillfully use 3DMAX to make regular geometric models. 3DMAX is much better and more convenient than most of 3D software when making geometry.</p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">But in addition, I use 3DMAX more for rendering. 3DMAX supports many excellent rendering plug-ins, such as vary2, Cr and so on. Through 3DMAX, I can render many exquisite pictures.</p>
+		</div>
+		<div class="maximg">
+		    <img id="myImg4" src="../img/3dint4.png" alt="3DMax" >
+                <div id="myModal4" class="modal4">
+                    <span class="close">&times;</span>
+                    <img class="modal-content4" id="img04">
+                    <div id="caption4"></div>
+		        </div>
+		</div>
+		
+		<div class="finimg">
+		    <img id="myImg5" src="../img/3dint5.png" alt="Finished Product" >
+                <div id="myModal5" class="modal5">
+                    <span class="close">&times;</span>
+                    <img class="modal-content5" id="img05">
+                    <div id="caption5"></div>
+		        </div>
+		</div>
+		<div class="text5">
+		    <p style="font-size:30px;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%;"><b>Finished Product.</b></p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">For me, it is complex to make a complete 3D character model  because I needs to use a lot of software. In this process, I learned a lot of useful 3D knowledge and skills.</p>
+			<p style="margin-left:5%;margin-right:5%;font-family: Open Sans;">However, I think there is still a certain gap between my 3D works and many mature works on the Internet, so that I need to keep studying and improving.</p>
+		</div>
+		
+		
+		<div class="dddvideo">
+		    <P style="font-size:30px;color: #45676e;font-family: Open Sans;margin-bottom:2%;"><b>360Degree.</b></P>
+		    <video src="../video/3d360.mp4" type="video/mp4" controls>
+		</div>
+		
+		<div class='text6'>
+		    <hr style="width:180%; margin-left:-40%;">
+		    <p style="margin-left:5%;margin-right:5%;margin-top:-1%;font-family: Open Sans;text-align:center;">It has been three years since we barely made geometric models at the beginning, and now we can easily make complex character models. I'm already learning how to make 3D animation. With continuous learning, I feel that I don't know more and more knowledge and skills. I hope I can keep learning to improve myself.</p>
+		</div>
+
+	</div>
+	
+	
+	
+	
+	
+<div class="footer">
+        <div class="footertext">
+            <p>&#169; 2022 Wan YiXuan Personal Homepage.com</p>
+        </div>
+</div>
+	
+<script src="../js/slide.js"></script>	
+<script src="../js/totop.js"></script>	
+<script src="../js/zoom1.js"></script>	
+</body>
+</html>
